@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+		<link rel="stylesheet" href="style.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<img src="./assets/mongoDB.svg" alt="mongodb image" width="500">
+					<h5>MongoDB: An Introduction to NoSQL Databases and its Usage with Node.js</h1>
+					<div>Created by <a href="https://github.com/alenzija">alenzija</a></p>
+				</section>
+				<section>
+					<h5>What is MongoDB?</h5>
+					<div>
+						MongoDB is a source-available cross-platform document-oriented database program.
+						Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas. 
+					</div>
+					<img src="./assets/mongo.png">
+				</section>
+				<section data-auto-animate>
+					<h5>What is NoSQL?</h5>
+				</section>
+				<section data-auto-animate>
+					<h5>What is NoSQL?</h5>
+					<img src="./assets/query-language.png" alt="not expressive query language">
+				</section>
+				<section data-auto-animate>
+					<h5>What is NoSQL?</h5>		
+					<img src="./assets/query-language.png" alt="not expressive query language">
+					<img src="./assets/strong-consistency.png" alt ="not strong consistency">
+				</section>
+				<section data-auto-animate>
+					<h5>What is NoSQL?</h5>
+					<img src="./assets/query-language.png" alt="not expressive query language">
+					<img src="./assets/strong-consistency.png" alt ="not strong consistency">
+					<img src="./assets/secondary-indexes.png"alt="not secondary indexes">
+				</section>
+				<section data-auto-animate>
+					<h5>What is NoSQL?</h5>	
+					<img src="./assets/query-language.png" alt="not expressive query language">
+					<img src="./assets/strong-consistency.png" alt ="not strong consistency">
+					<img src="./assets/secondary-indexes.png"alt="not secondary indexes">
+					<img src="./assets/flexibility.png" alt="flexebilty">
+				</section>
+				<section data-auto-animate>
+					<h5>What is NoSQL?</h5>	
+					<img src="./assets/query-language.png" alt="not expressive query language">
+					<img src="./assets/strong-consistency.png" alt ="not strong consistency">
+					<img src="./assets/secondary-indexes.png"alt="not secondary indexes">
+					<img src="./assets/flexibility.png" alt="flexebilty">
+					<img src="./assets/scalability.png" alt="scalability">
+				</section>
+				<section data-auto-animate>
+					<h5>What is NoSQL?</h5>
+					<img src="./assets/query-language.png" alt="not expressive query language">
+					<img src="./assets/strong-consistency.png" alt ="not strong consistency">
+					<img src="./assets/secondary-indexes.png"alt="not secondary indexes">
+					<img src="./assets/flexibility.png" alt="flexebilty">
+					<img src="./assets/scalability.png" alt="scalability">
+					<img src="./assets/performance.png" alt="performance">
+				</section>
+				<section>
+					<section data-auto-animate>
+						<h5>Setting Up MongoDB</h5>
+					</section>		
+					<section data-auto-animate>
+						<h5>Setting Up MongoDB</h5>
+						<img src="./assets/install.png" alt="MongoDB's website">
+					</section>
+					<section data-auto-animate>
+						<h5>Setting Up MongoDB</h5>
+						<img src="./assets/choosing-system.png" alt="MongoDB download">
+					</section>
+					<section data-auto-animate>
+						<h5>Setting Up MongoDB</h5>
+						<img src="./assets/compass.png" alt="MongoDB compass">
+					</section>
+				</section>
+				<section>
+					<section data-auto-animate>
+						<h5>Basic CRUD Operations in MongoDB</h5>
+					</section>		
+					<section data-auto-animate>
+						<h5>Creating DB</h5>
+						<img src="./assets/create-db.png" alt="creating db">
+					</section>
+					<section data-auto-animate>
+						<h5>Creating collection</h5>
+						<img src="./assets/create-collection.png" alt="creating collection">
+					</section>
+					<section data-auto-animate>
+						<h5>Creating document</h5>
+						<img src="./assets/insertOne.png" alt="creating one document">
+						<img src="./assets/insertMany.png" alt="creating many documents">
+					</section>
+					<section data-auto-animate>
+						<h5>Find documents</h5>
+						<img src="./assets/find.png" alt="finding documents">
+					</section>
+					<section data-auto-animate>
+						<h5>Updating documents</h5>
+						<img src="./assets/updateOne.png" alt="updating one document">
+					</section>
+					<section data-auto-animate>
+						<h5>Updating documents</h5>
+						<img src="./assets/updateMany.png" alt="updating many documents">
+					</section>
+					<section data-auto-animate>
+						<h5>Delete documents</h5>
+						<img src="./assets/deleteOne.png" alt="delete document">
+					</section>
+				</section>
+				<section data-auto-animate>
+					<h5>Indexing in MongoDB</h5>
+					<img src="./assets/index.png" alt="index">
+				</section>
+				</section>
+				<section>
+					<section data-auto-animate>
+						<h5>MongoDB Atlas</h5>
+						<img src="./assets/atlas-db.png" alt="list of databases">
+					</section>
+					<section data-auto-animate>
+						<h5>Creating new project</h5>
+						<img src="./assets/new-project.png" alt="create new project">
+					</section>
+					<section data-auto-animate>
+						<h5>Connecting with MongoDB driver</h5>
+						<img src="./assets/connect.png" alt="connect button">
+					</section>
+					<section data-auto-animate>
+						<h5>Connecting with MongoDB driver</h5>
+						<img src="./assets/connect-to-app.png" alt="connect to app">
+					</section>
+					<section data-auto-animate>
+						<h5>Connecting with MongoDB driver</h5>
+						<img src="./assets/url.png" alt="url">
+					</section>
+				</section>
+				<section>
+					<section data-auto-animate>
+						<h5>Using MongoDB with Node.js</h5>
+					</section>
+					<section data-auto-animate>
+						<h5>Using MongoDB with Node.js</h5>
+						<pre><code>npm i mongodb</code></pre>
+					</section>
+					<section data-auto-animate>
+						<p>index.js</p>
+						<pre>
+							<code>
+	const { MongoClient } = require('mongodb');
+	const client = new MongoClient(URL);
+	const start = async () => {
+		try {
+			await client.connect();
+			console.log('Connection established');
+		} catch(e) {
+			console.log(e.message);
+		}
+	}
+	start();
+							</code>
+						</pre>
+					</section>
+					<section data-auto-animate>
+						<p>index.js</p>
+						<pre>
+							<code>
+	const { MongoClient } = require('mongodb');
+	const client = new MongoClient(URL);
+	const start = async () => {
+		try {
+			await client.connect();
+			console.log('Connection established');
+		} catch(e) {
+			console.log(e.message);
+		}
+	}
+	start();
+							</code>
+						</pre>
+						<pre><code>
+	const URL = `mongodb+srv://${username}:${password}@${projectname}
+						.wv0aokk.mongodb.net/?retryWrites=true&w=majority`
+						</code></pre>
+					</section>
+					<section data-auto-animate>
+						<p>Using MongoDB Atlas API</p>
+						<pre>
+							<code>
+	await client.db().createCollection('users');
+							</code>
+						</pre>
+					</section>
+					<section data-auto-animate>
+						<p>Using MongoDB Atlas API</p>
+						<pre>
+							<code>
+	await client.db().createCollection('users');
+							</code>
+						</pre>
+						<pre>
+							<code>
+	const users = client.db().collection('users');
+							</code>
+						</pre>
+					</section>
+					<section data-auto-animate>
+						<p>Using MongoDB Atlas API</p>
+						<pre>
+							<code>
+	await client.db().createCollection('users');
+							</code>
+						</pre>
+						<pre>
+							<code>
+	const users = client.db().collection('users');
+							</code>
+						</pre>
+						<pre>
+							<code>
+	await users.insertMany([
+		{ name: 'Jonh', age: 23 },
+		{ name: 'Nick', age: 25 },
+	]);
+							</code>
+						</pre>
+					</section>
+					<section data-auto-animate>
+						<p>Using MongoDB Atlas API</p>
+						<pre>
+							<code>
+	await client.db().createCollection('users');
+							</code>
+						</pre>
+						<pre>
+							<code>
+	const users = client.db().collection('users');
+							</code>
+						</pre>
+						<pre>
+							<code>
+	await users.insertMany([
+		{ name: 'Jonh', age: 23 },
+		{ name: 'Nick', age: 25 },
+	]);
+							</code>
+						</pre>
+						<pre>
+							<code>
+	const user = await users.findOne({ name: 'John' })	
+							</code>
+						</pre>
+					</section>
+				</section>
+			</div>
+		</div>
+
+		
+
+;
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
